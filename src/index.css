@@ -106,7 +106,7 @@ input::placeholder {
 .weather {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   margin-bottom: 1rem;
 }
 .weather span {
