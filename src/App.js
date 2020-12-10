@@ -80,6 +80,12 @@ const App = () => {
         ) : (
           <></>
         )}
+        {/* This div is only for loading all the icons */}
+        <div className='icon-list'>
+          {Object.values(icons).map((icon) => (
+            <img src={icon} alt='' style={{ display: 'none' }} />
+          ))}
+        </div>
       </div>
     </div>
   );
