@@ -9,7 +9,7 @@
   background-image: linear-gradient(180deg, #c3458f, #cccccc);
 }
 #wrapper {
-  /* background: url('./images/bg-2.jpg'); */
+  background: url('./images/bg-2.jpg');
   padding-top: 20vh;
   position: relative;
   display: flex;
