@@ -36,6 +36,7 @@ const App = () => {
       <div className='container'>
         <form onSubmit={(e) => handleSubmit(e)}>
           <input
+            autoFocus={true}
             value={city}
             onChange={(e) => setCity(e.target.value)}
             type='text'
